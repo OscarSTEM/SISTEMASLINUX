@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Compobamos que los argumento son 3 y que el segundo 
+# Compobamos que los argumentos sean 3 y que el segundo 
 # argumento se encuentra entre 1 y 99
 if [ $# -eq 3 ] && [ $2 -ge 1 ] && [ $2 -le 99 ]
 then
